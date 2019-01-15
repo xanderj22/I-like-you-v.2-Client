@@ -26,10 +26,10 @@ const onCreateLikesSuccess = function () {
 //     </tr>
 //     <tr>
 //       <td>${data.user.interests}</td>
-//       <td>${data.user.five_fave_things}</td>
-//       <td>${data.user.personality_types}</td>
-//       <td>${data.user.gender_prefs}</td>
-//       <td>${data.user.searching_for}</td>
+//       <td>${data.user.fiveFaves}</td>
+//       <td>${data.user.personalityTypes}</td>
+//       <td>${data.user.genderPrefs}</td>
+//       <td>${data.user.searchingFor}</td>
 //     </tr>
 //   </table>`
 //

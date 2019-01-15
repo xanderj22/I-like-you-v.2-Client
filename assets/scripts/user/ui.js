@@ -30,11 +30,11 @@ const onShowUserInfoSuccess = function (data) {
       <th>Preferred Pronoun</th>
     </tr>
     <tr>
-      <td>${data.user.User_Name}</td>
-      <td>${data.user.Location}</td>
-      <td>${data.user.About}</td>
-      <td>${data.user.Gender_Identity}</td>
-      <td>${data.user.Preferred_Pronoun}</td>
+      <td>${data.user.userName}</td>
+      <td>${data.user.location}</td>
+      <td>${data.user.about}</td>
+      <td>${data.user.genderIdentity}</td>
+      <td>${data.user.preferredPronoun}</td>
     </tr>
   </table>`
 
