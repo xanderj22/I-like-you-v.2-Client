@@ -34,6 +34,7 @@ const signInSuccess = data => {
   $('#sign-out').show()
   $('.user').css('display', 'grid')
   $('#user-profile-info').html('Hello!')
+  $('#user-likes-info').html('>*_*<')
   $('.delete-user').css('display', 'grid')
   // console.log('signInSuccess ran. Data is :', data)
 }

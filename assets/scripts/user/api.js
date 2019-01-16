@@ -4,8 +4,9 @@ const config = require('../config.js')
 const store = require('../store.js')
 
 const create = function (data) {
+  console.log(data)
   return $.ajax({
-    url: config.apiUrl + '/users/' + store.user.id,
+    url: config.apiUrl + '/users',
     method: 'PATCH',
     headers: {
       Authorization: 'Token token=' + store.user.token
@@ -16,7 +17,7 @@ const create = function (data) {
 
 const update = function (data) {
   return $.ajax({
-    url: config.apiUrl + '/users/' + store.user.id,
+    url: config.apiUrl + '/users',
     method: 'PATCH',
     headers: {
       Authorization: 'Token token=' + store.user.token
@@ -28,7 +29,7 @@ const update = function (data) {
 const showUserInfo = () => {
   // console.log('show info', store.user.token)
   return $.ajax({
-    url: config.apiUrl + '/users/' + store.user.id,
+    url: config.apiUrl + '/users', // + store.user.id,
     method: 'GET',
     headers: {
       Authorization: 'Token token=' + store.user.token
@@ -39,7 +40,7 @@ const showUserInfo = () => {
 const deleteProfile = () => {
   // console.log('delete profile', store.user.token)
   return $.ajax({
-    url: config.apiUrl + '/users/' + store.user.id,
+    url: config.apiUrl + '/users', // + store.user.id,
     method: 'DELETE',
     headers: {
       Authorization: 'Token token=' + store.user.token

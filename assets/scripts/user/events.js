@@ -41,11 +41,13 @@ const onDeleteProfile = function (event) {
     .then(ui.onDeleteProfileSuccess)
     .catch(ui.onFailure)
   $('#show-user-info').css('display', 'none')
+  $('#show-user-likes').css('display', 'none')
   $('#user-profile-info').html('Goodbye')
   $('#change-password').hide()
   $('#sign-out').hide()
   $('#create-profile-form').css('display', 'none')
   $('#likes-form').css('display', 'none')
+  $('#user-likes-info').html('>*_*<')
   $('#delete-profile').css('display', 'none')
 }
 
