@@ -14,7 +14,7 @@ const onCreateLikesSuccess = function () {
 }
 
 const onShowUserLikesSuccess = function (data) {
-  console.log('user show likes success', data)
+  // console.log('user show likes success', data)
   const template = `<table style="width:100%">
     <tr>
       <th>  Interests  </th>
@@ -44,7 +44,7 @@ const onFailure = function (response) {
   console.error(response)
 
   // display error to user
-  $('#message').html('Something went wrong, please try again.')
+  $('#message').html('Nada.')
 }
 
 module.exports = {

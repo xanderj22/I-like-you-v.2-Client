@@ -39,7 +39,13 @@ const onShowUserInfoSuccess = function (data) {
   </table>`
 
   $('#user-profile-info').html(template)
-  $('#message').html('Current Profile')
+
+  if (typeof data.user.userName === 'undefined') {
+    $('#message').html('Please create profile.')
+  } else {
+    $('#message').html('Current Profile')
+  }
+
   $('#show-user-info').trigger('reset')
 }
 
