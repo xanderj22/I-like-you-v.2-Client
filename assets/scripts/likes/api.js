@@ -15,7 +15,7 @@ const create = function (data) {
 }
 
 const showUserLikes = () => {
-  console.log('show info', store.user.token)
+  // console.log('show info', store.user.token)
   return $.ajax({
     url: config.apiUrl + '/likes',
     method: 'GET',

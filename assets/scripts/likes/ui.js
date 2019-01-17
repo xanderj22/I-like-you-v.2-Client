@@ -44,7 +44,7 @@ const onFailure = function (response) {
   console.error(response)
 
   // display error to user
-  $('#message').html('Nada.')
+  $('#message').html('Nada:/ Please update likes and interests')
 }
 
 module.exports = {

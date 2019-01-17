@@ -21,8 +21,8 @@ const signUpFailure = error => {
 
 const signInSuccess = data => {
   store.user = data.user
-  console.log(store.user)
-  console.log(data)
+  // console.log(store.user)
+  // console.log(data)
   $('#message').text('Signed in successfully')
   setTimeout(clearText, 2800)
   $('#message').removeClass()
@@ -33,8 +33,8 @@ const signInSuccess = data => {
   $('#change-password').show()
   $('#sign-out').show()
   $('.user').css('display', 'grid')
-  $('#user-profile-info').html('Hello!')
-  $('#user-likes-info').html('>*_*<')
+  $('#user-profile-info').html(' Hello! ')
+  $('#user-likes-info').html(' >*_*< ')
   $('.delete-user').css('display', 'grid')
   // console.log('signInSuccess ran. Data is :', data)
 }

@@ -1,18 +1,19 @@
-"I Like You" (v.2) A friending app  (I like you-client)
+"I Like You" (v.2) -- A friending app  (I like you-client)
+
+A full-stack application created using HTMl, CSS, Javascript, jquery AJAX, Express API, Mongoose/MongoDB, and json.
 
 Links to github repositories:
-
+https://github.com/xanderj22/I-like-you-v.2-Client
+https://github.com/xanderj22/I-like-you-v.2-Express-API
 
 Links to deployed sites:
+https://xanderj22.github.io/I-like-you-v.2 ??
+https://thawing-headland-69785.herokuapp.com
 
+Screenshot of app found here:
+xander22/I-like-you-v.2/I-like-you-client/public/Images
 
 Initial wire frame sketches are located here: xanderj22/Xproject2-client/public/Wire_Frames
-
-A full-stack application created using HTMl, CSS, Javascript, jquery AJAX, Express API, Mongoose? and json.
-
-My process involved referencing WDI course materials, reviewing online resources such as w3schools.com, reviewing the full-stack project issue queue, collaborating with other developers in training, and getting help from the amazing WDI instructors.
-
-My greatest struggles centered around storing and retrieving data, and figuring out how all of the front-end and back-end files were interacting.
 
 User stories:
 
@@ -34,3 +35,8 @@ Better user experience:
   -better display of user data
   -keyword search capability
   -user interaction -- the ability to see other user profile data
+
+
+My process involved referencing WDI course materials, reviewing online resources such as w3schools.com, reviewing the full-stack project issue queue, collaborating with other developers in training, and getting help from the amazing WDI instructors.
+
+My greatest struggles centered around storing and retrieving data, and figuring out how all of the front-end and back-end files were interacting.

@@ -4,7 +4,7 @@ const config = require('../config.js')
 const store = require('../store.js')
 
 const create = function (data) {
-  console.log(data)
+  // console.log(data)
   return $.ajax({
     url: config.apiUrl + '/users',
     method: 'PATCH',

@@ -50,8 +50,8 @@ const onSignOut = event => {
   $('#show-user-info').css('display', 'none')
   $('#show-user-likes').css('display', 'none')
   $('#delete-profile').css('display', 'none')
-  $('#user-profile-info').html('Goodbye!')
-  $('#user-likes-info').html('>*_*<')
+  $('#user-profile-info').html(' Goodbye! ')
+  $('#user-likes-info').html(' >*_*< ')
 }
 
 module.exports = {
