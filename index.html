@@ -47,7 +47,13 @@
     <body>
 
       <h1>I LIKE YOU</h1>
-      <h2>A friending app</h2>
+      <h2>A
+        <!-- <a href="https://en.wikipedia.org/wiki/Queer"> "queer"  </a>
+        <a href="https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive"> (nonbinary,  </a>
+        <a href="https://en.wikipedia.org/wiki/Genderqueer"> gender diverse,  </a>
+        <a href="https://www.entitymag.com/heteronormativity-meaning-problems/"> nonheteronormative,  </a>
+        <a href="https://www.earthday.org/2018/04/18/fact-sheet-how-much-disposable-plastic-we-use/"> curious)  </a> -->
+        friending app</h2>
 
       <p id="message"></p>
 
@@ -97,11 +103,11 @@
       <form class="user" id="create-profile-form">
         <button type="submit" class="btn btn-default">Create Profile or Update Current Profile</button>
         <div class="form-group">
-          <input required type="text" name="user[User_Name]" placeholder="User Name" id="username">
-          <input required type="text" name="user[Location]" placeholder="Location" id="userlocation">
-          <input required type="text" name="user[About]" placeholder="About You (in 3 words)" id="aboutuser">
-          <input required type="text" name="user[Gender_Identity]" placeholder="Gender Identity" id="useridentity">
-          <input required type="text" name="user[Preferred_Pronoun]" placeholder="Preferred Pronoun" id="userpronoun">
+          <input required type="text" name="user[userName]" placeholder="User Name" id="username">
+          <input required type="text" name="user[location]" placeholder="Location" id="userlocation">
+          <input required type="text" name="user[about]" placeholder="About You (in 3 words)" id="aboutuser">
+          <input required type="text" name="user[genderIdentity]" placeholder="Gender Identity" id="useridentity">
+          <input required type="text" name="user[preferredPronoun]" placeholder="Preferred Pronoun" id="userpronoun">
         </div>
       </form>
 
@@ -109,10 +115,10 @@
       <button type="submit" class="btn btn-default">Likes and Interests?</button>
       <div class="form-group">
         <input required type="text" name="like[interests]" placeholder="Interests" id="userinterests">
-        <input required type="text" name="like[five_fave_things]" placeholder="5 Fave Things" id="userfaves">
-        <input required type="text" name="like[personality_types]" placeholder="Personality Types" id="personalities">
-        <input required type="text" name="like[gender_prefs]" placeholder="Gender Prefs" id="genderprefs">
-        <input required type="text" name="like[searching_for]" placeholder="Searching For?" id="usersearch">
+        <input required type="text" name="like[fiveFaves]" placeholder="5 Fave Things" id="userfaves">
+        <input required type="text" name="like[personalityTypes]" placeholder="Personality Types" id="personalities">
+        <input required type="text" name="like[genderPrefs]" placeholder="Gender Prefs" id="genderprefs">
+        <input required type="text" name="like[searchingFor]" placeholder="Searching For?" id="usersearch">
       </div>
     </form>
 
@@ -120,11 +126,13 @@
       <button type="submit" class="btn btn-default">Show Current Profile</button>
     </form>
 
-    <!-- <form class="user" id="show-user-likes">
-      <button type="submit" class="btn btn-default">User Likes</button>
-    </form> -->
-
     <div id="user-profile-info"></div>
+
+    <form class="user" id="show-user-likes">
+      <button type="submit" class="btn btn-default">Show Likes</button>
+    </form>
+
+    <div id="user-likes-info"></div>
 
     <form class="delete-user" id="delete-profile">
       <button type="submit" class="btn btn-default">Delete Profile</button>
