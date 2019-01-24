@@ -1,6 +1,8 @@
-"I Like You" (v.2) -- A friending app 
+"I Like You" (v.2) -- A friending app
 
 A full-stack application created using HTMl, CSS, Javascript, jquery AJAX, Express API, Mongoose/MongoDB, and json.
+
+Additional installation requirements: npm install
 
 Links to github repositories:
 https://github.com/xanderj22/I-like-you-v.2-Client
@@ -11,9 +13,9 @@ https://xanderj22.github.io/I-like-you-v.2-Client
 https://thawing-headland-69785.herokuapp.com
 
 Screenshot of app found here:
-xander22/I-like-you-v.2/I-like-you-client/public/Images
+https://github.com/xander22/I-like-you-v.2/I-like-you-client/public/Images
 
-Initial wire frame sketches are located here: xanderj22/I-like-you-v.2-Client/public/Wire_Frames
+Initial wire frame sketches are located here: https://github.com/xanderj22/I-like-you-v.2-Client/public/Wire_Frames
 
 User stories:
 
