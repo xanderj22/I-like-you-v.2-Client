@@ -13,7 +13,7 @@ const signUpSuccess = data => {
 }
 
 const signUpFailure = error => {
-  $('#message').text('Nope. Try again :/')
+  $('#message').text('Sorry. Try again :/')
   $('#message').removeClass()
   $('#message').addClass('failure')
   console.error('signUpFailure ran. Error is :', error)
@@ -64,7 +64,7 @@ const changePasswordFailure = error => {
 }
 
 const signOutSuccess = data => {
-  $('#message').text('Success on sign out')
+  $('#message').text('Signed out')
   store.user = null
   $('#message').removeClass()
   $('#message').addClass('success')
