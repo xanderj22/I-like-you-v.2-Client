@@ -168,7 +168,7 @@
                 </div>
               </nav>
 
-              <div class="container-fluid well span6">
+              <div class="container-fluid well span-6">
 
               <!-- First Container -->
               <div class="container-fluid bg-1 text-center">
@@ -178,14 +178,16 @@
 
                 <form class="user"
                   id="create-profile-form">
-                  <button type="submit" class="btn btn-default">Create Profile or Update Current Profile</button>
                   <div class="form-group">
-                    <input required type="text" name="user[userName]" placeholder="User Name" id="username">
-                    <input required type="text" name="user[location]" placeholder="Location" id="userlocation">
-                    <input required type="text" name="user[about]" placeholder="About You (in 3 words)" id="aboutuser">
-                    <input required type="text" name="user[genderIdentity]" placeholder="Gender Identity" id="useridentity">
-                    <input required type="text" name="user[preferredPronoun]" placeholder="Preferred Pronoun" id="userpronoun">
+                    <input class="col-6" required type="text" name="user[userName]" placeholder="User Name" id="username">
+                    <input class="col-6" required type="text" name="user[location]" placeholder="Location" id="userlocation">
+                    <input class="col-6" required type="text" name="user[about]" placeholder="About You (in 3 words)" id="aboutuser">
+                    <input class="col-6" required type="text" name="user[genderIdentity]" placeholder="Gender Identity" id="useridentity">
+                    <input class="col-6" required type="text" name="user[preferredPronoun]" placeholder="Preferred Pronoun" id="userpronoun">
                   </div>
+                  <div class="col-12">
+                  <button type="submit" class="justify-content-center btn btn-default">Create Profile or Update Current Profile</button>
+                </div>
                 </form>
               </div>
 
@@ -193,14 +195,15 @@
               <div class="container-fluid bg-2 text-center">
                 <h4 class="margin">What are your likes and interests?</h4>
                 <form class="user" id="likes-form">
-                  <button type="submit" class="btn btn-default">Likes and Interests?</button>
+
                   <div class="form-group">
-                    <input required type="text" name="like[interests]" placeholder="Interests" id="userinterests">
-                    <input required type="text" name="like[fiveFaves]" placeholder="5 Fave Things" id="userfaves">
-                    <input required type="text" name="like[personalityTypes]" placeholder="Personality Types" id="personalities">
-                    <input required type="text" name="like[genderPrefs]" placeholder="Gender Prefs" id="genderprefs">
-                    <input required type="text" name="like[searchingFor]" placeholder="Searching For?" id="usersearch">
+                    <input class="col 12" required type="text" name="like[interests]" placeholder="Interests" id="userinterests">
+                    <input class="col 12" required type="text" name="like[fiveFaves]" placeholder="5 Fave Things" id="userfaves">
+                    <input class="col 12" required type="text" name="like[personalityTypes]" placeholder="Personality Types" id="personalities">
+                    <input class="col 12" required type="text" name="like[genderPrefs]" placeholder="Gender Prefs" id="genderprefs">
+                    <input class="col 12" required type="text" name="like[searchingFor]" placeholder="Searching For?" id="usersearch">
                   </div>
+                  <button type="submit" class="btn btn-default">Likes and Interests?</button>
                 </form>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
